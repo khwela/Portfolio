@@ -177,9 +177,20 @@ font-size: 30px;
 letter-spacing: 5px;
 
 }
+.aside .nav-toggler.open span::before{
+    transform: rotate(45deg);
+    top: 0;
+}
+.aside .nav-toggler.open span::after{
+    transform: rotate(-45deg);
+    top: 0;
+}
 .aside .logo a span{
 font-family: 'clicker script', cursive;
 font-size: 40px;
+}
+.aside .nav-toggler.open span{
+    background-color: transparent;
 }
 .aside .logo a::before{
     content: "";
